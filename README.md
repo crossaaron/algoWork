@@ -1,0 +1,2 @@
+# algoWork
+basic algo solving
