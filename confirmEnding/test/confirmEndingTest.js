@@ -4,7 +4,7 @@ var confirmEnding = require("../index.js");
 describe("confirmEnding", function() {
     it("confirmEnding(Hello, llo) should return true",  function () {
         expect(confirmEnding("Hello", 'llo')).to.equal(true);
-        console.log('hello');
+
     });
 
     it("confirmEnding(hello, wxy) should return false", function () {

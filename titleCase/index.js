@@ -11,4 +11,3 @@ let titleCase = (str) => {
 
 module.exports = titleCase;
 
-
