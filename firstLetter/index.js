@@ -1,4 +1,4 @@
-function titleCase(str) {
+let titleCase = (str) => {
     let wordArray = str.toLowerCase().split(' ');
 
     let result = wordArray.map( word => {
@@ -7,8 +7,8 @@ function titleCase(str) {
 
     return result.join(' ');
 
-}
-console.log(titleCase("leFt handed MINDS are USuallly Right"));
+};
 
+module.exports = titleCase;
 
 
