@@ -8,17 +8,12 @@ function sumAll(arr) {
     //Math.max(arr[0], arr[1]);
     //Math.min(arr[0], arr[1]);
 
-    //initial sum of numbers
-    let initNumSum = arr[0] + arr[1]
-    let betweenArr = [];
     let total = 0;
 
-    for (let i = smallNum + 1; i < largeNum; i++) {
-        betweenArr.push(i);
+    for (let i = smallNum ; i <= largeNum; i++) {
         total += i;
     }
 
-    let totalSum = total + initNumSum;
-    return totalSum;
+    return total;
 }
-console.log(sumAll([20, 10]));
+console.log(sumAll([5, 10]));
