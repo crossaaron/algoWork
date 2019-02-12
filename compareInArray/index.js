@@ -13,4 +13,10 @@ function compareInArray (arr1, arr2) {
     return newArr;
 }
 
+// using filter more efficient via CodeWars
+function array_diff(a, b) {
+    return a.filter(function(x) { return b.indexOf(x) == -1; });
+}
+
 console.log(compareInArray([1,2,3,4], [1,2,3,4,5]));
+console.log(array_diff([1,2,3,4], [1,2,3,4,5]));
